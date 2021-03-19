@@ -1,0 +1,141 @@
+/*  General CSS*/
+body{
+	background-image:linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+h1, h2, h3, h4, h5 ,h6{
+    color: #6d6d6d;
+    font-family: "raleway-regular", arial;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em;}
+h2              { font-size: 1.5em;}
+h3              { font-size: 1.17em;}
+h5              { font-size: .83em;}
+h6              { font-size: .75em;}
+h1, h2, h3, h4,
+h5, h6          { font-weight: bolder }
+
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+ 
+.clearfix {  
+    *zoom: 1;  
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.billboard{
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+.billboard .iphone{
+    display: block;
+    width: 256px;
+    height: 542px;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    background: url('../img/white_iphone.png') no-repeat;
+}
+
+
+.billboard .iphone .slider_wrapper{
+    display: block;
+    width: 225px;
+    height: 392px;
+    position: absolute;
+    top: 75px;
+    left: 17px;
+    background: #c3c3c3;
+    overflow: hidden;
+}
+
+.billboard .iphone .slider_wrapper .slides{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.billboard .details{
+    display: block;
+    width: 640px;
+    height: auto;
+    float: right;
+    margin-top: 150px;
+    position: relative;
+}
+
+.billboard .details h1{
+    color: #595959;
+    font-family: "raleway-regular", arial;
+    font-size: 50px;
+    margin-bottom: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.billboard .details p{
+    color: #747272;
+    font-family: "raleway-regular", airl;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.billboard .download_btn .ios_btn,
+.billboard .download_btn .android_btn{
+    display: inline-block;
+    width: 244px;
+    height: 60px;
+}
+
+.billboard .download_btn .ios_btn .download_btn_img{
+	border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer .copyrights{
+    text-align: center;
+
+    font-size: 13px;
+    font-family: 'raleway-regular', arial;
+    color: #a6a6a6;
+    letter-spacing: .5px;
+}
+
+footer .sm{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bold{
+    font-family: 'raleway-bold', arial;
+    font-weight: bold;
+}
