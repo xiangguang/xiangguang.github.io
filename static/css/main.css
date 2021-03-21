@@ -38,7 +38,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .wrapper{
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -52,43 +52,13 @@ h5, h6          { font-weight: bolder }
     position: relative;
 }
 
-.billboard .iphone{
-    display: block;
-    /*width: 256px;*/
-    /*height: 542px;*/
-    width: 270px;
-    height: 570px;
-    position: relative;
-    float: left;
-    margin-top: 30px;
-    background: url('../img/screen2.jpeg') no-repeat;
-    border-radius: 25px;
-}
-
-
-.billboard .iphone .slider_wrapper{
-    display: block;
-    width: 225px;
-    height: 392px;
-    position: absolute;
-    top: 75px;
-    left: 17px;
-    background: #c3c3c3;
-    overflow: hidden;
-}
-
-.billboard .iphone .slider_wrapper .slides{
-    display: block;
-    float: left;
-    position: relative;
-}
 
 .billboard .details{
     display: block;
-    width: 640px;
+    width: 800px;
     height: auto;
     float: right;
-    margin-top: 50px;
+    margin-top: 40px;
     position: relative;
 }
 
@@ -105,7 +75,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", airl;
     font-size: 18px;
     line-height: 28px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .billboard .download_btn .ios_btn,
@@ -113,6 +83,13 @@ h5, h6          { font-weight: bolder }
     display: inline-block;
     width: 244px;
     height: 60px;
+}
+
+.billboard .details .logo{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right:10px;
 }
 
 .billboard .download_btn .ios_btn .download_btn_img{
@@ -143,8 +120,9 @@ footer .sm{
 }
 
 .content{
-    width: 80%;
+    width: 800px;
     height: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
