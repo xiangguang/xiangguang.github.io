@@ -44,7 +44,6 @@ h5, h6          { font-weight: bolder }
 
 .billboard{
     width: 100%;
-    /*height: 650px;*/
     min-height: 100%;
     background-size: cover;
     -webkit-background-size: cover;
@@ -112,9 +111,6 @@ h5, h6          { font-weight: bolder }
 
 footer{
     width: 100%;
-    /*position: fixed;
-    left: 0px;
-    bottom: 0px;*/
 }
 
 footer .copyrights a{
