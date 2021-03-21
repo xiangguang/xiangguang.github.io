@@ -12,7 +12,7 @@ body{
 }
 h1, h2, h3, h4, h5 ,h6{
     color: #6d6d6d;
-    font-family: "raleway-regular", arial;
+    font-family: "PingFangSC-Regular", arial;
     letter-spacing: 1px;
 }
 
@@ -44,7 +44,8 @@ h5, h6          { font-weight: bolder }
 
 .billboard{
     width: 100%;
-    height: 650px;
+    /*height: 650px;*/
+    min-height: 100%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,11 +61,12 @@ h5, h6          { font-weight: bolder }
     float: right;
     margin-top: 40px;
     position: relative;
+    padding-bottom: 70px;
 }
 
 .billboard .details h1{
     color: #595959;
-    font-family: "raleway-regular", arial;
+    font-family: "PingFangSC-Regular", arial;
     font-size: 50px;
     margin-bottom: 40px;
     line-height: 60px;
@@ -72,10 +74,15 @@ h5, h6          { font-weight: bolder }
 
 .billboard .details p{
     color: #747272;
-    font-family: "raleway-regular", airl;
+    font-family: "PingFangSC-Regular", airl;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 20px;
+}
+
+.billboard .details span a{
+    color: #747272;
+    font-family: "PingFangSC-Regular", airl;
 }
 
 .billboard .download_btn .ios_btn{
@@ -99,16 +106,26 @@ h5, h6          { font-weight: bolder }
 .billboard .download_btn .ios_btn .download_btn_img{
 	border-radius: 10px;
 }
+.billboard .download_btn .ios_btn_en .download_btn_img{
+    border-radius: 10px;
+}
 
 footer{
     width: 100%;
+    /*position: fixed;
+    left: 0px;
+    bottom: 0px;*/
+}
+
+footer .copyrights a{
+    color: #a6a6a6;
 }
 
 footer .copyrights{
     text-align: center;
 
     font-size: 13px;
-    font-family: 'raleway-regular', arial;
+    font-family: 'PingFangSC-Regular', arial;
     color: #a6a6a6;
     letter-spacing: .5px;
 }
@@ -119,7 +136,7 @@ footer .sm{
 }
 
 .bold{
-    font-family: 'raleway-bold', arial;
+    font-family: 'PingFangSC-Semibold', arial;
     font-weight: bold;
 }
 
@@ -132,7 +149,7 @@ footer .sm{
 
 .content p {
     color: #747272;
-    font-family: "raleway-regular", airl;
+    font-family: "PingFangSC-Regular", airl;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 60px;
