@@ -78,11 +78,15 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 20px;
 }
 
-.billboard .download_btn .ios_btn,
-.billboard .download_btn .android_btn{
+.billboard .download_btn .ios_btn{
     display: inline-block;
-    width: 244px;
-    height: 60px;
+    width: 170px;
+    height: 62px;
+}
+.billboard .download_btn .ios_btn_en{
+    display: inline-block;
+    width: 170px;
+    height: 56px;
 }
 
 .billboard .details .logo{
